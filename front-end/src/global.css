@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    background-color: var(--surface-100);
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Reset da margem padrao de paragrafos */
+h1,
+label,
+a {
+    color: var(--text-color);
+}
+
+/* Aplica cor primaria de texto do tema */
+.p-inputtext {
+    height: 32px;
+}
+
+/* Alterar altura de InputText */
+.field label {
+    padding: 0;
+}
+
+/* Remover padding dos labels da classe field */
+.field.grid {
+    margin: 0;
+}
+
+/* Remover margin padrao do field grid */
+.p-inputnumber-button {
+    height: 16px;
+}
+
+/* Alterar altura dos botoes + e - do inputnumber */
+.p-dropdown-label {
+    padding: 3px 10px;
+}
+
+/* Padding do dropdown */
+/* Margem abaixo do titulo do card */
+.p-card-title {
+    font-size: 1.4rem !important;
+    margin-bottom: 24px !important;
+}
+
+.p-card-body {
+    padding: 0 15px !important;
+}
+
+/* Remove padding dos cards */
+.p-card-content {
+    padding: 0 !important;
+}
+
+.p-dialog-content {
+    padding: 5px !important;
+}
+
+/* Diminui padding do modal de confirmacao */
+/* Remove padding inferior do header dos modais e seta pt para padronizacao */
+.p-dialog-header {
+    padding-top: 5px !important;
+    padding-bottom: 0 !important;
+}
+
+/* Alinha o texto do footer do modal de confirmacao no comeco e seta pb para padronizacao*/
+.p-dialog-footer {
+    text-align: start !important;
+    padding-bottom: 5px !important;
+}
+
+.field-radiobutton {
+    margin-bottom: 0;
+}
+
+/* Remove margem inferior do radio button */
+.p-column-title {
+    font-size: 14px;
+}
+
+/* Altera o tamanho da fonte do titulo da coluna nas tabelas */
+td {
+    font-size: 14px;
+}
+
+/* Altera o tamanho da fonte nas linhas nas tabelas */
+/* Remove padding que aumenta tamanho da linha das tabelas */
+.p-datatable-tbody td {
+    padding: 2px 10px !important;
+}
+
+/* Deixar o icone de filtro proximo do titulo da coluna */
+.p-column-header-content {
+    display: block !important;
+    margin-left: 0 !important;
+}
+
+/* Diminui tamanho da linha do paginator */
+.p-datatable .p-paginator-bottom {
+    height: 50px;
+    padding: 0;
+}
+
+/* Diminui altura da esfera ao redor do numero da pagina atual do paginator */
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+    height: 40px;
+}
+
+/* desktop */
+.input400 {
+    width: 400px;
+}
+
+/* nome - email */
+.input300 {
+    width: 350px;
+}
+
+/* questao - resposta */
+.input200 {
+    width: 200px;
+}
+
+/* cidade - pais */
+.input70 {
+    width: 70px;
+}
+
+/* ano - sigla */
+.input30 {
+    width: 30px;
+}
+
+/* estado */
+@media (max-width: 576px) {
+    .input400 {
+        width: auto;
+    }
+
+    /* nome - email */
+    .input300 {
+        width: auto;
+    }
+
+    /* questao - resposta */
+    .input200 {
+        width: auto;
+    }
+
+    /* cidade - pais */
+    .input70 {
+        width: auto;
+    }
+
+    /* ano - sigla */
+    .input30 {
+        width: auto;
+    }
+
+    /* estado */
+    img {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .p-sidebar .p-sidebar-header {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .p-card-title {
+        font-size: 1.2rem !important;
+    }
+}
