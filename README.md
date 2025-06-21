@@ -1,4 +1,4 @@
-# Site-Patrocinio-de-Show-Musical
+# Sistema-Patrocinio-de-Show-Musical
 
 Este projeto modela um sistema de gerenciamento de shows com foco em Produtores, Patrocinadores e Usuários. Abaixo estão os detalhes sobre as entidades, relacionamentos, atributos, enums e filtros disponíveis.
 
