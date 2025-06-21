@@ -7,12 +7,14 @@ Entidades : Relacionamentos
 -Produtor [1:n] Show
 -Patrocinador [1:n] Prioridade
 -Prioridade : Patrocinador - Show
+
 Entidades : Atributos e Referências (chaves sublinhadas -- referências em negrito)
 -Usuário : cpf, nome, email, perfil, status, senha, questão, resposta, cor_tema
 --Produtor :  atuação, anos_experiência, shows, usuário
 --Patrocinador : tipo, ano_inicio_patrocinio, data_início_empresa, telefone, prioridades, usuário
 --Show : id, nome_show, gênero_musical, localização, data_show, descrição, show_gratuito, categoria, produtor, prioridades
 --Prioridade : id, nível_prioridade, justificativa, data_avaliação, patrocinador, show
+
 Entidades : Enumerados
 -Usuário
 --Perfil : produtor, patrocinador
@@ -25,6 +27,7 @@ Entidades : Enumerados
 -Show
 --gênero_musical : post-hardcore, metalcore, pop punk
 --categoria: festival, solo, beneficente
+
 Filtros : Administrar e Pesquisar
 -Produtor
 --GerenciarShows
